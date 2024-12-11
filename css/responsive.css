@@ -1,9 +1,14 @@
 /*responsive telefono*/
 @media screen and (min-width: 430px) {
     .navbar-laterale {
-        width: 30vh;
+        width: 40%;
         height: 100%;
         background-color: black;
+    }
+
+    .conteiner-parole {
+        flex-basis: calc(100% /4);
+
     }
 }
 
@@ -11,8 +16,13 @@
 @media screen and (min-width: 768px) {
     .card-music {
         background-color: green;
-        height: 10vh;
-        width: 20%;
+        flex-basis: calc(100%/5);
+
+
+    }
+
+    .conteiner-parole {
+        flex-basis: calc(100% /6);
 
     }
 }
@@ -21,7 +31,15 @@
 @media screen and (min-width: 1440px) {
     .card-music {
         background-color: green;
-        height: 10vh;
         flex-basis: calc(100% / 7);
+    }
+
+    .navbar-laterale {
+        width: 20%;
+    }
+
+    .conteiner-parole {
+        flex-basis: calc(100% /7);
+
     }
 }

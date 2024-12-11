@@ -11,7 +11,7 @@
 }
 
 .navbar-laterale {
-    width: 10vh;
+    width: 7%;
     height: 100%;
     background-color: black;
     display: flex;
@@ -21,7 +21,7 @@
 
 .navbar-centrale {
     width: 100%;
-    height: 10%;
+    height: 40px;
     background-color: red;
     position: sticky;
     top: 0;
@@ -31,7 +31,7 @@
 .contenitore-centrale {
     background-color: #141922;
     width: 100%;
-    height: 100vw;
+    height: 100%;
     overflow: scroll;
 
 }
@@ -49,10 +49,11 @@ li {
 }
 
 .conteiner-parole {
-    height: 5vh;
-    width: 20%;
+    height: 50%;
+    width: 100%;
     background-color: blue;
     color: white;
+    flex-basis: calc(100% /5);
 }
 
 .recent-play {
@@ -65,15 +66,16 @@ li {
     flex-wrap: wrap;
     gap: 20px;
     overflow: auto;
-    width: 45vh;
-    height: 71vh;
+    width: 100%;
+    height: 100%;
     margin-left: 10px;
 }
 
 .card-music {
     background-color: green;
-    height: 18vh;
-    width: 40%;
+    height: 50%;
+    width: 100%;
     gap: 20px;
+    flex-basis: calc(100%/ 3);
 
 }
