@@ -1,0 +1,16 @@
+.conteiner {
+    height: 90vh;
+    width: auto;
+    background-color: #141922;
+}
+
+.musicbar {
+    height: 10vh;
+    background-color: #282828;
+}
+
+.navbar-laterale {
+    width: 10vh;
+    height: 100%;
+    background-color: black;
+}
