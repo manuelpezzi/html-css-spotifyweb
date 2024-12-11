@@ -8,7 +8,20 @@
 }
 
 /*responsive tablet*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .card-music {
+        background-color: green;
+        height: 10vh;
+        width: 20%;
+
+    }
+}
 
 /*responsive deskotop*/
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+    .card-music {
+        background-color: green;
+        height: 10vh;
+        flex-basis: calc(100% / 7);
+    }
+}

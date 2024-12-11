@@ -24,14 +24,15 @@
     height: 10%;
     background-color: red;
     position: sticky;
+    top: 0;
 
 }
 
 .contenitore-centrale {
     background-color: #141922;
     width: 100%;
-    height: auto;
-
+    height: 100vw;
+    overflow: scroll;
 
 }
 
@@ -57,4 +58,22 @@ li {
 .recent-play {
     color: white;
     padding: 3%;
+}
+
+.conteiner-music {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
+    width: 45vh;
+    height: 71vh;
+    margin-left: 10px;
+}
+
+.card-music {
+    background-color: green;
+    height: 18vh;
+    width: 40%;
+    gap: 20px;
+
 }
