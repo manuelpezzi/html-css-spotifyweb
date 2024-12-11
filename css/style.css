@@ -23,7 +23,7 @@
     width: 100%;
     height: 10%;
     background-color: red;
-    position: fixed;
+    position: sticky;
 
 }
 
@@ -32,9 +32,29 @@
     width: 100%;
     height: auto;
 
-}
 
+}
 
 li {
     color: white;
+}
+
+.list-gender {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.conteiner-parole {
+    height: 5vh;
+    width: 20%;
+    background-color: blue;
+    color: white;
+}
+
+.recent-play {
+    color: white;
+    padding: 3%;
 }
