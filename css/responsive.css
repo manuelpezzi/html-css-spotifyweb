@@ -1,13 +1,13 @@
 /*responsive telefono*/
 @media screen and (min-width: 430px) {
     .navbar-laterale {
-        width: 40%;
+        width: 30%;
         height: 100%;
         background-color: black;
     }
 
     .contenitore-centrale {
-        width: 60%;
+        width: 100%;
     }
 
     .icon {
@@ -37,6 +37,10 @@
         width: 90%;
     }
 
+    .list-gender {
+        margin: 10px 20px;
+    }
+
 }
 
 
@@ -47,8 +51,7 @@
 /*responsive tablet*/
 @media screen and (min-width: 768px) {
     .card-music {
-        background-color: green;
-        flex-basis: calc(100%/5);
+        flex-basis: calc(100%/6);
 
 
     }
@@ -73,12 +76,17 @@
     a {
         font-size: 1.4rem;
     }
+
+    .daily-mix {
+        display: flex;
+        width: 45%;
+    }
+
 }
 
 /*responsive deskotop*/
 @media screen and (min-width: 1440px) {
     .card-music {
-        background-color: green;
         flex-basis: calc(100% / 7);
     }
 
@@ -87,14 +95,12 @@
     }
 
     .contenitore-centrale {
-        background-color: #141922;
-        width: 80%;
-        height: 100%;
         overflow: auto;
     }
 
     .conteiner-parole {
         flex-basis: calc(100% /7);
+        margin-left: -60px;
 
     }
 }
