@@ -4,6 +4,12 @@
         width: 40%;
         height: 100%;
         background-color: black;
+
+    }
+
+
+    .ghost-select-respo {
+        display: none;
     }
 
     .conteiner-parole {
@@ -15,6 +21,10 @@
         display: inline-block;
     }
 
+    hr {
+        display: block;
+        width: 90%;
+    }
 
 }
 
@@ -26,6 +36,11 @@
 
 
     }
+
+    .logo-mod {
+        max-width: 200px;
+    }
+
 
     .conteiner-parole {
         flex-basis: calc(100% /6);
@@ -42,6 +57,13 @@
 
     .navbar-laterale {
         width: 20%;
+    }
+
+    .contenitore-centrale {
+        background-color: #141922;
+        width: 80%;
+        height: 100%;
+        overflow: auto;
     }
 
     .conteiner-parole {
