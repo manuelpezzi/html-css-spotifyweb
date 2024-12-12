@@ -10,6 +10,12 @@
         flex-basis: calc(100% /4);
 
     }
+
+    .ghost-select {
+        display: inline-block;
+    }
+
+
 }
 
 /*responsive tablet*/

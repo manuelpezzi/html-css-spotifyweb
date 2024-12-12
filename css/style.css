@@ -42,6 +42,11 @@ li {
     color: white;
 }
 
+.ghost-select {
+    display: none;
+    padding: 2%;
+}
+
 .list-gender {
     display: flex;
     flex-wrap: wrap;
