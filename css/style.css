@@ -12,6 +12,9 @@
 .musicbar {
     height: 10vh;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-laterale {
@@ -96,6 +99,21 @@ a {
     align-items: center;
 }
 
+.icon-white {
+    color: #737373;
+    padding: 10px;
+    row-gap: 5px;
+    padding-top: 19px;
+
+}
+
+
+.color-grey {
+    color: #737373;
+    display: block;
+
+}
+
 .fine {
     max-width: 20px;
     margin-bottom: 5px;
@@ -110,6 +128,7 @@ a {
 
 
 }
+
 
 .padding-left {
     padding-left: 5px;
@@ -192,6 +211,7 @@ a {
     display: flex;
     flex-direction: column;
     color: #737373;
+    flex-grow: 1;
 
 }
 
@@ -218,4 +238,47 @@ span {
 
 .title-radius {
     text-align: center;
+}
+
+.flex-final-div {
+    display: flex;
+    padding: 10px;
+}
+
+.sinster-icon {
+    min-width: 20px;
+    max-width: 35px;
+    padding-top: 10px;
+}
+
+h5 {
+    color: white;
+}
+
+.music-player {
+
+    color: white;
+    gap: 10px;
+    min-width: 20px;
+    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.music-bottom {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.slider-vol {
+    width: 50px;
+    display: none;
+}
+
+.slider-music {
+    width: 100px;
+
 }
